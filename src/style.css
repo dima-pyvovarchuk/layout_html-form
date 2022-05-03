@@ -1,1 +1,11 @@
-/* styles go here */
+.fieldsets {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: block;
+}
+
+.form-field:not(:last-of-type) {
+  margin-bottom: 10px;
+}
