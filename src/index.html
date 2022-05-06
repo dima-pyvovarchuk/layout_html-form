@@ -15,6 +15,7 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fieldsets">
         <legend>Personal information</legend>
+
         <label class="form-field">
           Surname:
           <input
@@ -59,6 +60,7 @@
 
       <fieldset class="fieldsets">
         <legend>Registration</legend>
+
         <label class="form-field">
           E-mail:
           <input
@@ -82,14 +84,17 @@
 
       <fieldset class="fieldsets">
         <legend>An interesting fact about you</legend>
-        <label class="form-field">
-          Do you love cats?
+
+        Do you love cats?
+        <label class="form-field form-field--radio">
           <input
             type="radio"
             name="love-cats"
             value="yes"
           >
           Yes
+        </label>
+        <label>
           <input
             type="radio"
             name="love-cats"
@@ -97,6 +102,7 @@
           >
           No
         </label>
+
         <label class="form-field">
           What is your favorite color?
           <input type="color" name="favorite-color">

@@ -9,3 +9,7 @@
 .form-field:not(:last-of-type) {
   margin-bottom: 10px;
 }
+
+.form-field--radio {
+  display: inline-block;
+}
